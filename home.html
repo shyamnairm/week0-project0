@@ -1,31 +1,66 @@
 <!Doctype html>
 <html>
     <head>
-        <link rel="Home Style" href="Home Style.css">
         <title>
             Hotel ZamZam - Home Page
         </title>
+        <style>
+        #Head{
+            background-color:rgb(100, 150, 255);
+            text-align: center;
+            width: 100%;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: white;
+        }
+        #Main{
+           text-align:center;
+           border:0.1px solid brown;
+           width: 100%;
+           color: black;
+           padding: 0.1px;
+        }
+        td{
+            border:0.1px solid brown;
+            width:25%;
+        }
+        #image{
+            text-align: center;
+            width: 75%;
+        }
+        h2{
+            text-align:center;
+            font-weight: bold;
+        }
+        p{
+            text-align: center;
+        }
+        </style>
     </head>
     <body>
-        <table class="Main">
-            <tr id="Head">
-                    Hotel ZamZam
-            </tr>
+        <table id="Main">
+            <div id="Head">
+                <h1>Hotel ZamZam</h1>
+            </div>
             <tr id="Menu">
                 <td>
-                    <a href="home.html">Home</a>
+                    <a href="home.html" alt="Home">Home</a>
                 </td>
                 <td>
-                    <a href="menu.html">Menu</a>
+                    <a href="menu.html" alt="Menu">Menu</a>
                 </td>
                 <td>
-                    <a href="About.html">About Us</a>
+                    <a href="About.html" alt="About Us">About Us</a>
                 </td>
                 <td>
-                    <a href="Contact.html">Contact Us</a>
+                    <a href="Contact.html" alt="Contact Us">Contact Us</a>
                 </td>
             </tr>
         </table>
-        <p>Home Page of Hotel ZamZam</p>
-    </body>  
+        <br>
+        <p><h2>-~-Home Page of Hotel ZamZam-~-</h2>
+        <a href= "home.html" alt="Hotel ZamZam"><img id="image" src="Hotel_Image.jpg" alt="Hotel_Image"></a>
+        </p>
+        <br>
+        <a href= "#Head">Go to Top</a>
+    </body>
 </html>
