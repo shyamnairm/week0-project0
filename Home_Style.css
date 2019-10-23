@@ -1,0 +1,74 @@
+html
+h1{
+    color: white;
+    margin-left: 20px;
+  }
+#Head{ 
+    background-color:rgb(100, 150, 255);
+    text-align: center;
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+table.Main{
+    text-align:center;
+    border:0.1px solid grey;
+    width: 100%;
+    color: black;
+    padding: 0.1px;
+ }
+ .Main td{
+     border:0.1px solid grey;
+     width:25%;
+ }
+ .Main tr{
+    border:0.1px solid grey;
+    width:25%;
+ }
+ h2{
+     text-align:center;
+     font-weight: bold;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     color: Blue;
+ }
+ table.MenuHead{
+     text-align:center;
+     font-weight:bold;
+     border:2px solid blue;
+     width:100%
+ }
+ table.Menu{
+     text-align:center;
+     border:2px solid lawngreen;
+     width:100%
+ }
+ .Menu td{
+    border:0.1px solid grey;
+    width:30%;
+ }
+ #Smiley{
+     text-align: center;
+ }
+ #contact{
+     text-align:justify;
+     font-size: 150%;
+ }
+ h2{
+    text-align:center;
+    font-weight: bold;
+    color: darkcyan;
+ }
+ #about{
+    text-align:justify;
+    font-size: 150%;
+ }
+ #image{
+    text-align: center;
+    width: 85%;
+ }
+ #footer{
+    text-align: center;
+ }
+ #items{
+    text-align: justify;
+ }
