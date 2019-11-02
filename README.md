@@ -1,3 +1,5 @@
+# Read the line which mentions the way the project folder should be :-)
+
 # week0-project0
 Assignment for Week 0
 This is a Webpage created for Hotel Zam Zam
